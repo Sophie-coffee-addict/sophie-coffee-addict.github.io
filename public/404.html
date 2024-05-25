@@ -3,7 +3,15 @@
   <head>
     <meta charset="UTF-8">
     <title>404</title>
-    <meta http-equiv="refresh" content="0; url=/" />
+    <script type="text/javascript">
+      // Redirect to the correct route
+      var l = window.location;
+      var base = '/';
+      if (l.pathname !== base) {
+        var newUrl = base + '#' + l.pathname;
+        window.location.replace(newUrl);
+      }
+    </script>
   </head>
   <body>
     <p>Redirecting...</p>

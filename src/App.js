@@ -1,12 +1,12 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Profile from './components/Profile';
 import SteveJobsPage from './components/SteveJobsPage';
 import { Helmet } from 'react-helmet';
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <Helmet>
         <title>Sophie Codes</title>
       </Helmet>
