@@ -6,11 +6,11 @@ import { Helmet } from 'react-helmet';
 
 function App() {
   return (
-    <Router>
-      <div className="App">
+    <Router basename={process.env.PUBLIC_URL}>
       <Helmet>
-          <title>Sophie Codes</title>
-        </Helmet>
+        <title>Sophie Codes</title>
+      </Helmet>
+      <div className="App">
         <Routes>
           <Route path="/" element={<Profile />} />
           <Route path="/steve-jobs" element={<SteveJobsPage />} />
