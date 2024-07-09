@@ -211,6 +211,13 @@
     margin-bottom: 6rem;
   }
   
+  .project-video {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
   @media (max-width: 30.625em) {
     .projects-section {
       padding: 6rem 1rem;
