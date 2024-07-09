@@ -40,11 +40,11 @@ const Profile = () => {
             <p className="project-title"><span className="code">&lt;</span>Tribute Page<span className="code">&#47;&gt;</span></p>
           </a>
           <a href="https://drive.google.com/file/d/10GPTzjLVQ7yhSeO_uLsFGQhYkOahvqNg/view" target="_blank" rel="noopener noreferrer" className="project project-tile">
-            <img className="project-image" src="/roadreadynz.jpg" alt="project"/>
+            <img className="project-image" src="/image/roadreadynz.jpg" alt="project"/>
             <p className="project-title"><span className="code">&lt;</span>RoadReadyNZ<span className="code">&#47;&gt;</span></p>
           </a>
           <a href="https://drive.google.com/file/d/1bK2RaG4MidxL61CA1LpplirRCQmM1S8R/view" target="_blank" rel="noopener noreferrer" className="project project-tile">
-            <img className="project-image" src="/lexican.jpg" alt="project"/>
+            <img className="project-image" src="/image/lexican.jpg" alt="project"/>
             <p className="project-title"><span className="code">&lt;</span>LexiCan<span className="code">&#47;&gt;</span></p>
           </a>
         </div>
