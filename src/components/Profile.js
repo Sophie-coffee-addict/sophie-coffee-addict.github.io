@@ -39,20 +39,14 @@ const Profile = () => {
             <img className="project-image" src="https://cdn.britannica.com/04/171104-050-5B714956/Steve-Jobs-iPhone-2010.jpg" alt="project"/>
             <p className="project-title"><span className="code">&lt;</span>Tribute Page<span className="code">&#47;&gt;</span></p>
           </a>
-          <a href="/RoadReadyNZ" target="_blank" rel="noopener noreferrer" className="project project-tile">
-    <video className="project-video" controls>
-        <source src="https://drive.google.com/uc?export=download&id=10GPTzjLVQ7yhSeO_uLsFGQhYkOahvqNg" type="video/mp4" />
-        Your browser does not support the video tag.
-    </video>
-    <p className="project-title"><span className="code">&lt;</span>RoadReadyNZ<span className="code">&#47;&gt;</span></p>
-</a>
-<a href="/LexiCan" target="_blank" rel="noopener noreferrer" className="project project-tile">
-    <video className="project-video" controls>
-        <source src="https://drive.google.com/uc?export=download&id=1bK2RaG4MidxL61CA1LpplirRCQmM1S8R" type="video/mp4" />
-        Your browser does not support the video tag.
-    </video>
-    <p className="project-title"><span className="code">&lt;</span>LexiCan<span className="code">&#47;&gt;</span></p>
-</a>
+          <a href="https://drive.google.com/file/d/10GPTzjLVQ7yhSeO_uLsFGQhYkOahvqNg/view" target="_blank" rel="noopener noreferrer" className="project project-tile">
+            <img className="project-image" src="/roadreadynz.jpg" alt="project"/>
+            <p className="project-title"><span className="code">&lt;</span>RoadReadyNZ<span className="code">&#47;&gt;</span></p>
+          </a>
+          <a href="https://drive.google.com/file/d/1bK2RaG4MidxL61CA1LpplirRCQmM1S8R/view" target="_blank" rel="noopener noreferrer" className="project project-tile">
+            <img className="project-image" src="/lexican.jpg" alt="project"/>
+            <p className="project-title"><span className="code">&lt;</span>LexiCan<span className="code">&#47;&gt;</span></p>
+          </a>
         </div>
         <a href="https://github.com/Sophie-coffee-addict" className="btn btn-show-all" target="_blank" rel="noopener noreferrer">See more<i className="fas fa-chevron-right"></i></a>
       </section>
