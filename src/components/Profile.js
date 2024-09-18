@@ -24,7 +24,7 @@ const Profile = () => {
       {/* START WELCOME SECTION */}
       <section id="welcome-section" className="welcome-section">
         <h1>Hey, I am Sophie</h1>
-        <p>a former early childhood teacher turning into a developer</p>
+        <p>a former early childhood teacher turning into a data engineer</p>
         <div>
           <a href="/Sophie-CV.pdf" target="_blank" className="btn btn-cv">View My CV</a>
         </div>
