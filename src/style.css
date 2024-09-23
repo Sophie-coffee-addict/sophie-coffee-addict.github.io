@@ -1,0 +1,69 @@
+body {
+  background-color: #E7CCE7FF;
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+<<<<<<< HEAD
+  /*background-image: url("../public/image/newzealand.jpg");*/
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay; /* 添加混合模式 */
+  /*background-color: rgba(255, 255, 255, 0.8); !* 透明白色背景，调整透明度 *!*/
+=======
+ 
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay; 
+>>>>>>> origin/gh-pages
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+<<<<<<< HEAD
+  /*background-image: url("../public/image/newzealand.jpg");*/
+  /*background-color: #e7cce7;*/
+=======
+>>>>>>> origin/gh-pages
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/gh-pages
