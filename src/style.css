@@ -11,11 +11,10 @@ body {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: black;
-  /*background-image: url("../public/image/newzealand.jpg");*/
+ 
   background-size: cover;
   background-position: center;
-  background-blend-mode: overlay; /* 添加混合模式 */
-  /*background-color: rgba(255, 255, 255, 0.8); !* 透明白色背景，调整透明度 *!*/
+  background-blend-mode: overlay; 
 }
 
 .App-logo {
@@ -30,8 +29,6 @@ body {
 }
 
 .App-header {
-  /*background-image: url("../public/image/newzealand.jpg");*/
-  /*background-color: #e7cce7;*/
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -53,3 +50,4 @@ body {
     transform: rotate(360deg);
   }
 }
+

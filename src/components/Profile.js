@@ -24,7 +24,8 @@ const Profile = () => {
       {/* START WELCOME SECTION */}
       <section id="welcome-section" className="welcome-section">
         <h1>Hey, I am Sophie</h1>
-        <p>a former early childhood teacher transfering into the IT area</p>
+        <p>a former early childhood teacher and technical translator</p>
+        <p>now transitioning into the tech industry</p>
         <div>
           <a href="Sophie-CV.pdf" target="_blank" className="btn btn-cv">View My CV</a>
         </div>
@@ -41,7 +42,7 @@ const Profile = () => {
           </a>
           <a href="https://github.com/Sophie-coffee-addict/RoadReadyNZDemo" target="_blank" rel="noopener noreferrer" className="project project-tile">
             <img className="project-image" src="/image/roadreadynz.jpg" alt="project"/>
-            <p className="project-title"><span className="code">&lt;</span>RoadReadyNZ<span className="code">&#47;&gt;</span></p>
+            <p className="project-title"><span className="code">&lt;</span>RoadReadyNZ mobile app<span className="code">&#47;&gt;</span></p>
           </a>
           <a href="https://github.com/Sophie-coffee-addict/YouTubeDataPipeline" target="_blank" rel="noopener noreferrer" className="project project-tile">
             <img className="project-image" src="/image/dataInsightsReport.jpg" alt="project"/>
