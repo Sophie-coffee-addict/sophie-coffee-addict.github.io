@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>404</title>
+    <script type="text/javascript">
+      // Redirect to the correct route
+      var l = window.location;
+      var base = '/';
+      if (l.pathname !== base) {
+        var newUrl = base + '#' + l.pathname;
+        window.location.replace(newUrl);
+      }
+    </script>
+  </head>
+  <body>
+    <p>Redirecting...</p>
+  </body>
+</html>

@@ -11,11 +11,18 @@ body {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: black;
+<<<<<<< HEAD
   /*background-image: url("../public/image/newzealand.jpg");*/
   background-size: cover;
   background-position: center;
   background-blend-mode: overlay; /* 添加混合模式 */
   /*background-color: rgba(255, 255, 255, 0.8); !* 透明白色背景，调整透明度 *!*/
+=======
+ 
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay; 
+>>>>>>> origin/gh-pages
 }
 
 .App-logo {
@@ -30,8 +37,11 @@ body {
 }
 
 .App-header {
+<<<<<<< HEAD
   /*background-image: url("../public/image/newzealand.jpg");*/
   /*background-color: #e7cce7;*/
+=======
+>>>>>>> origin/gh-pages
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -53,3 +63,7 @@ body {
     transform: rotate(360deg);
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/gh-pages
