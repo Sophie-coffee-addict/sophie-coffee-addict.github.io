@@ -26,7 +26,7 @@ const Profile = () => {
         <h1>Hey, I am Sophie</h1>
         <p>a former early childhood teacher transfering into the IT area</p>
         <div>
-          <a href="./Sophie-CV.pdf" target="_blank" className="btn btn-cv">View My CV</a>
+          <a href="public/Sophie-CV.pdf" target="_blank" className="btn btn-cv">View My CV</a>
         </div>
       </section>
       {/* END WELCOME SECTION */}
@@ -39,13 +39,13 @@ const Profile = () => {
             <img className="project-image" src="https://cdn.britannica.com/04/171104-050-5B714956/Steve-Jobs-iPhone-2010.jpg" alt="project"/>
             <p className="project-title"><span className="code">&lt;</span>Tribute Page<span className="code">&#47;&gt;</span></p>
           </a>
-          <a href="https://drive.google.com/file/d/10GPTzjLVQ7yhSeO_uLsFGQhYkOahvqNg/view" target="_blank" rel="noopener noreferrer" className="project project-tile">
+          <a href="https://github.com/Sophie-coffee-addict/RoadReadyNZDemo" target="_blank" rel="noopener noreferrer" className="project project-tile">
             <img className="project-image" src="/image/roadreadynz.jpg" alt="project"/>
             <p className="project-title"><span className="code">&lt;</span>RoadReadyNZ<span className="code">&#47;&gt;</span></p>
           </a>
-          <a href="https://drive.google.com/file/d/1bK2RaG4MidxL61CA1LpplirRCQmM1S8R/view" target="_blank" rel="noopener noreferrer" className="project project-tile">
-            <img className="project-image" src="/image/lexican.jpg" alt="project"/>
-            <p className="project-title"><span className="code">&lt;</span>LexiCan<span className="code">&#47;&gt;</span></p>
+          <a href="https://github.com/Sophie-coffee-addict/YouTubeDataPipeline" target="_blank" rel="noopener noreferrer" className="project project-tile">
+            <img className="project-image" src="/image/dataInsightsReport" alt="project"/>
+            <p className="project-title"><span className="code">&lt;</span>YouTubeDataPipeline<span className="code">&#47;&gt;</span></p>
           </a>
         </div>
         <a href="https://github.com/Sophie-coffee-addict" className="btn btn-show-all" target="_blank" rel="noopener noreferrer">See more<i className="fas fa-chevron-right"></i></a>
@@ -55,7 +55,7 @@ const Profile = () => {
       {/* START CONTACT SECTION */}
       <section id="contact" className="contact-section">
         <div className="contact-section-header">
-          <h2>Let's work together...</h2>
+          <h2>Let me create value for you...</h2>
           <p>How do you like your coffee?</p>
         </div>
         <div className="contact-links">
