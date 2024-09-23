@@ -44,7 +44,7 @@ const Profile = () => {
             <p className="project-title"><span className="code">&lt;</span>RoadReadyNZ<span className="code">&#47;&gt;</span></p>
           </a>
           <a href="https://github.com/Sophie-coffee-addict/YouTubeDataPipeline" target="_blank" rel="noopener noreferrer" className="project project-tile">
-            <img className="project-image" src="/image/dataInsightsReport" alt="project"/>
+            <img className="project-image" src="/image/dataInsightsReport.jpg" alt="project"/>
             <p className="project-title"><span className="code">&lt;</span>YouTubeDataPipeline<span className="code">&#47;&gt;</span></p>
           </a>
         </div>
