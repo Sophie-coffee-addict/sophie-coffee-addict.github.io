@@ -48,7 +48,7 @@
     "gh-pages": "^6.1.1"
   },
 
-  "homepage": "https://sophie-coffee-addict.github.io",
+  "homepage": "https://sophie-coffee-addict.github.io/sophie-coffee-addict.github.io",
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "author": "",
