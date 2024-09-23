@@ -26,7 +26,7 @@ const Profile = () => {
         <h1>Hey, I am Sophie</h1>
         <p>a former early childhood teacher transfering into the IT area</p>
         <div>
-          <a href="public/Sophie-CV.pdf" target="_blank" className="btn btn-cv">View My CV</a>
+          <a href="Sophie-CV.pdf" target="_blank" className="btn btn-cv">View My CV</a>
         </div>
       </section>
       {/* END WELCOME SECTION */}
