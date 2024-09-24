@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Profile.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -6,20 +6,26 @@ import { faAt } from '@fortawesome/free-solid-svg-icons';
 import { Helmet } from 'react-helmet';
 
 const Profile = () => {
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://www.googletagmanager.com/gtag/js?id=G-X9TRJXTYWY";
+    script.async = true;
+    document.head.appendChild(script);
+
+    const inlineScript = document.createElement("script");
+    inlineScript.innerHTML = `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-X9TRJXTYWY');
+    `;
+    document.head.appendChild(inlineScript);
+  }, []);
+
   return (
     <div>
       <Helmet>
         <title>Sophie Codes</title>
-        {/* Google Tag Manager */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-X9TRJXTYWY"></script>
-        <script>
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-X9TRJXTYWY');
-          `}
-        </script>
      </Helmet>
 
 
